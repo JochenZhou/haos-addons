@@ -2,19 +2,13 @@
   "name": "lucky",
   "version": "1.0.0",
   "slug": "lucky",
-  "description": "Lucky Add-on",
-  "arch": [ "aarch64", "amd64"],
+  "description": "A powerful networking tool",
+  "arch": ["amd64", "armv7", "aarch64"],
   "startup": "before",
   "boot": "auto",
   "options": [],
   "schema": {},
-  "ports": [
-    {
-      "name": "HTTP",
-      "port": 16601,
-      "protocol": "tcp"
-    }
-  ],
+  "ports": [],
   "env_vars": [],
   "docker_image": "gdy666/lucky:latest",
   "docker_args": []
